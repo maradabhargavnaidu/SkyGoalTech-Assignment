@@ -136,4 +136,54 @@
     left: 20px;
     top: 190px;
   }
+  .none {
+    display: block;
+  }
+  header {
+    all: unset;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    background-color: white;
+    width: 100%;
+  }
+  .list-items {
+    all: unset;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: white;
+  }
+  .ham-bars {
+    display: none;
+  }
+  nav ul li a {
+    all: unset;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #262626;
+  }
+  .nav-btn {
+    padding: 16px 30px;
+    font-size: 15px;
+  }
+  .nav-items {
+    display: flex;
+  }
+  .list-items-two {
+    all: unset;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    margin: 0 auto;
+  }
 }
