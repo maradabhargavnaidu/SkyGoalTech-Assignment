@@ -132,4 +132,8 @@
     height: 550px;
     width: 550px;
   }
+  .rectangle {
+    left: 20px;
+    top: 190px;
+  }
 }
