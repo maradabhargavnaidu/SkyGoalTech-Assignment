@@ -1,0 +1,135 @@
+@media screen and (min-width: 800px) {
+  /*=== HOME-SECTION ===*/
+  .home-section-container {
+    flex-direction: row;
+    margin-top: 150px;
+    width: 1300px;
+  }
+  .home-section-content {
+    text-align: left;
+    margin-top: -200px;
+  }
+  .home-green-background img {
+    display: block;
+    width: 100%;
+    border-radius: 44.5%;
+    position: absolute;
+    bottom: 0;
+  }
+  .font-inter-600 {
+    font-size: 25px;
+    line-height: 80px;
+  }
+
+  .font-poppins-700 {
+    font-size: 80px;
+    line-height: 90px;
+  }
+
+  .font-poppins-500 {
+    font-size: 80px;
+    line-height: 90px;
+  }
+
+  .font-inter-400 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .brown-shape {
+    top: 200px;
+    left: 120px;
+  }
+  .brown-shape2 {
+    top: 400px;
+    left: 700px;
+  }
+  .green-shape {
+    top: 800px;
+    right: 100px;
+  }
+
+  .green-shape2 {
+    top: 150px;
+    right: 500px;
+  }
+
+  .yellow-shape {
+    top: 650px;
+    left: 300px;
+  }
+  .tropical-adventure-section-container {
+    flex-direction: row;
+    width: 1140px;
+    justify-content: space-between;
+  }
+
+  .tropical-card h5 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+  }
+
+  .tropical-card p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #000000;
+  }
+
+  .student-discount-section-container {
+    flex-direction: row;
+    width: 1140px;
+    justify-content: space-between;
+  }
+  .book-now-section-container {
+    flex-direction: row;
+    width: 1140px;
+    justify-content: space-between;
+  }
+  .testimonials-cards {
+    flex-direction: row;
+    width: 1140px;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .footer-container {
+    width: 1140px;
+    /* padding: 50px 0; */
+  }
+  .book-now-card {
+    width: 400px;
+  }
+  .book-card-flex-columns {
+    justify-content: space-between;
+  }
+  .footer-links ul {
+    flex-direction: row;
+    height: 0;
+    padding: 20px 0;
+  }
+  .footer-center-content {
+    text-align: center;
+    align-items: center;
+  }
+  .footer-para {
+    text-align: center;
+    width: 400px;
+    margin: 20px 0;
+  }
+  .footer-links {
+    gap: 30px;
+  }
+  .student-discount-heroein-container {
+    margin-top: 200px;
+  }
+  .home-green-background {
+    height: 550px;
+    width: 550px;
+  }
+}
