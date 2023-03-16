@@ -282,6 +282,14 @@
       src="https://kit.fontawesome.com/e2720add5b.js"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
+    <script>
+      const hamburger = document.querySelector(".ham-bars");
+      const list = document.querySelector(".none");
+      hamburger.addEventListener("click", () => {
+      console.log("clicked");
+      list.classList.toggle("none");
+      list.classList.toggle("open");
+      });
+    </script>
   </body>
 </html>
