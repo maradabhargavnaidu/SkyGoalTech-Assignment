@@ -48,6 +48,7 @@ nav ul li a {
   font-weight: 500;
   font-size: 16px;
   color: #262626;
+  cursor: pointer;
 }
 .none {
   display: none;

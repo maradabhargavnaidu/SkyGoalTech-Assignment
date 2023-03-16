@@ -169,6 +169,7 @@
     font-weight: 600;
     font-size: 16px;
     color: #262626;
+    cursor: pointer;
   }
   .nav-btn {
     padding: 16px 30px;
@@ -190,7 +191,7 @@
     all: unset;
     display: flex;
     width: 1240px;
-    margin: 0 0 0 auto;
+    margin: 0 auto 0 auto;
     padding: 60px 0;
   }
   .scroll-container {
