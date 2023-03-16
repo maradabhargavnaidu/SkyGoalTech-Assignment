@@ -271,7 +271,58 @@ nav ul li a {
   font-size: 16px;
   line-height: 19px;
 }
+/*=== OUR DESTINATIONS SECTION ===*/
+.scroll-container {
+  padding: 10px 0;
+  box-sizing: border-box;
+  width: 330px;
+}
+.our-destinations-section {
+  padding-top: 0;
+  padding-bottom: 60px;
+}
+.scroll-card-wrapper {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 360px;
+  /* height: 400px; */
+  padding: 60px 0;
+}
 
+.our-destinations-section h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+  text-align: center;
+}
+.our-destinations-section h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+.scroll-container p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.scroll-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 40px;
+  width: 300px;
+}
 /*=== STUDENT DISCOUNT SECTION  ===*/
 .student-discount-section-content {
   display: flex;

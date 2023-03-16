@@ -186,4 +186,20 @@
     width: 250px;
     margin: 0 auto;
   }
+  .scroll-card-wrapper {
+    all: unset;
+    display: flex;
+    width: 1240px;
+    margin: 0 0 0 auto;
+    padding: 60px 0;
+  }
+  .scroll-container {
+    all: unset;
+    width: 1240px;
+    margin: 0 auto;
+  }
+  .image-box img {
+    display: block;
+    width: 100%;
+  }
 }
