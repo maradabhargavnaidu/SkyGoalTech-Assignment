@@ -435,6 +435,19 @@ nav ul li a {
   z-index: 3;
 }
 
+.btn {
+  padding: 20px;
+  font-family: "Inter";
+  border: none;
+  border-radius: 10px;
+}
+.booking-card-room-star {
+  display: flex;
+}
+
+.booking-card-room-star input {
+  width: 10px;
+}
 input {
   font-family: "Roboto";
   font-style: normal;
