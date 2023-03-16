@@ -7,7 +7,7 @@
 /*=== NAVBAR ===*/
 header {
   position: fixed;
-  background: whitesmoke;
+  background: white;
   top: 0;
   z-index: 100;
   width: 100%;
